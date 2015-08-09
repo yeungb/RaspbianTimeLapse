@@ -1,0 +1,5 @@
+#!/bin/bash
+
+filename=$(date +"%Y%m%d_%H%M%S")_%04d
+
+raspistill -o /home/pi/projects/timelapse/images/$filename.jpg
